@@ -7,7 +7,25 @@
 MPU6050 mpu;
 
 
-void check_connect(){
+void check_connec){
+
+  // Инициализация связи I2C
+  Wire.begin();
+
+  // Инициализация MPU6050
+  Serial.println("Инициализация MPU6050...");
+  mpu.initialize();
+
+){
+
+  // Инициализация связи I2C
+  Wire.begin();
+
+  // Инициализация MPU6050
+  Serial.println("Инициализация MPU6050...");
+  mpu.initialize();
+
+t(){
 
   // Инициализация связи I2C
   Wire.begin();
